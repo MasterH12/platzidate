@@ -1,7 +1,7 @@
 #Platzi Date
 Una utilidad para manejar fechas en formato timestamp y long time
 
-#Install
+$Install
 
 ```bash
 npm install platziDate
