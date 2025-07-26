@@ -1,12 +1,21 @@
 {
-  "name": "platzidate",
+  "name": "masterh12/platzidate",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
     "test": "node -e \"const {getTimeStamp, getLongTime} = require('./src/index.js'); console.log('Timestamp:', getTimeStamp()); console.log('Long time:', getLongTime());\""
   },
-  "keywords": ["date", "nodejs", "timestamp", "locale", "time"],
+  "keywords": [
+    "date",
+    "nodejs",
+    "timestamp",
+    "locale",
+    "time"
+  ],
   "author": "Alexander Oses <heinz.oses@gmail.com>",
   "license": "MIT",
-  "description": "Una utilidad para manejar fechas en formato timestamp y long time"
+  "description": "Una utilidad para manejar fechas en formato timestamp y long time",
+  "dependencies": {
+    "user": "^0.0.0"
+  }
 }
